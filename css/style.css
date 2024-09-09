@@ -30,13 +30,13 @@ body{
 .span{
     color: #FF5400;
 }
-ul{
+.nav-ul{
     display: flex;
 }
-ul li{
+.nav-ul li{
     list-style: none;
 }
-ul a{
+.nav-ul a{
     text-decoration: none;
     color: #424247;
     margin-left: 40px;
@@ -85,7 +85,15 @@ ul a{
 .find{
     width: 22%;
 }
-
+.popular{
+    margin: 50px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-text{
+    width: 46%;
+}
 
 
 
@@ -129,5 +137,16 @@ ul a{
     }
     .find{
         width: 100%;
+    }
+    .popular{
+        flex-direction: column;
+        margin: 10px 6px;
+    }
+    .popular-text{
+        width: 90%;
+    }
+    .popular img{
+        width: 100%;
+        margin: 22px auto;
     }
 }
