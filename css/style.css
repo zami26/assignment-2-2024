@@ -5,7 +5,7 @@ body{
     color: #424247;
 }
 .common-btn{
-    padding: 18px 15px;
+    padding: 18px 25px;
     color: white;
     font-weight: bold;
     background-color: #FF5400;
@@ -94,7 +94,97 @@ body{
 .popular-text{
     width: 46%;
 }
-
+.destination{
+    text-align: center;
+    margin: 50px 12%;
+}
+.destination p{
+    width: 60%;
+    margin: 0px auto;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row h1{
+    margin: 10px 0px;
+}
+.maldives{
+    background-image: url("../Images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    padding: 13% 0px;    
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.indonesia{
+    background-image: url("../Images/Rectangle\ 8.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 49%;
+    padding: 13% 0px;
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.srilanka{
+    background-image: url("../Images/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 24%;
+    /* height: 50vh; */
+    padding: 13% 0px;
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.america{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    background-image: url("../Images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 50%;
+    padding: 13% 0px;
+}
+.kashmir{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    background-image: url("../Images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 24%;
+    padding: 13% 0px;
+}
+.bd{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    background-image: url("../Images/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 30%;
+    padding: 13% 0px;
+}
+.ban{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    background-image: url("../Images/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 69%;
+    padding: 13% 0px;
+}
 
 
 
@@ -149,4 +239,17 @@ body{
         width: 100%;
         margin: 22px auto;
     }
+    .row{
+        flex-direction: column;
+    }
+    .destination{
+        margin: 0px;
+    }
+    .destination p{
+        width: 95%;
+    }
+    .phone--size{
+        width: 100%;
+    }
+    
 }
