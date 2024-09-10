@@ -322,6 +322,14 @@ color: white;
     background-size: 100% 100%;
     width: 57%;
 }
+footer{
+    margin: 20px auto;
+    width: 40%;
+    text-align: center;
+}
+.footer-logo{
+    margin: 0px 30%;
+}
 
 
 
@@ -454,5 +462,11 @@ margin: 0px 15px;
     .newsl-text{
         width: 60%;
         margin-bottom: 60px;
+    }
+    footer{
+        width: 80%;
+    }
+    .i{
+        margin-right: 15px;
     }
 }
