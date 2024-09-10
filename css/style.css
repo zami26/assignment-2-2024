@@ -215,6 +215,50 @@ body{
 .single-cart{
     margin: 30px auto 50px auto;
 }
+.deals-sec{
+    margin: 100px 12%;
+}
+.deals-details{
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10%;
+    margin-bottom: 14px;
+}
+.deals-details-2{
+    background-image: url("../Images/Group\ 40.png");
+}
+.package-box{
+    background-color: rgba(246, 246, 248, 0.9);
+    border-radius: 15px;
+    width: 43%;
+    padding: 30px;
+    margin-left:50% ;
+    margin-top: 6%;
+}
+.package-box-2{
+    margin-top: 6%;
+    margin-left: 2%;
+}
+.deal-text{
+    text-align: center;
+    width: 55%;
+    margin: 0px auto;
+}
+.package-limit{
+    display: flex;
+}
+.gap{
+margin-left: 27px;
+}
+.orange{
+    color: #FF5400;
+}
+.package-btn{
+    margin: 20px 40%;
+}
+
+
 
 
 
@@ -297,4 +341,24 @@ body{
         margin: 0px;
     }
     
+    .deals-sec{
+        margin: 5px auto;
+    }
+    .deal-text{
+        width: 90%;
+    }
+    .package-box{
+        width: 87%;
+        margin-left: 0px;
+        margin-top: 80%;
+    }
+    .package-limit{
+        flex-direction: column;
+    }
+    .gap{
+        margin: 0px;
+    }
+    .package-btn{
+        margin: 20px 30%;
+    }
 }
