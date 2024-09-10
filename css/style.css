@@ -186,6 +186,35 @@ body{
     padding: 13% 0px;
 }
 
+/* choose section */
+.choose-sec{
+    margin: 0px 12% ;
+}
+.choose-text{
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+}
+.cart-box{
+    display: flex;
+    justify-content: space-between;
+}
+.cart img{
+    width: 130px;
+}
+
+.cart{
+    width: 46%;
+    background-color: #f8ebdd;
+    padding: 14px 20px;
+    border-radius: 7px;
+}
+.cart-color{
+    background-color: #d4f1f8e8;
+}
+.single-cart{
+    margin: 30px auto 50px auto;
+}
 
 
 
@@ -250,6 +279,22 @@ body{
     }
     .phone--size{
         width: 100%;
+    }
+    .choose-sec {
+        margin: 0px 5%;
+    }
+    .choose-text{
+        width: 90%;
+    }
+    .cart-box{
+        flex-direction: column;
+    }
+    .cart{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .single-cart{
+        margin: 0px;
     }
     
 }
